@@ -7,5 +7,3 @@
 # npm install @react-native-firebase/messaging
 
 # npm i @react-native-async-storage/async-storage
-
-# https://github.com/yasinfmd/youtubeSourceCode/tree/main/rn%20push
