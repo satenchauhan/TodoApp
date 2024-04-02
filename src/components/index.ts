@@ -1,1 +1,1 @@
-export * from './OfflineToastMsgWrapper';
+export * from './NetworkToastWrapper';

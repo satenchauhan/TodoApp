@@ -27,7 +27,7 @@ const offlineToastConfig = {
   ),
 };
 
-export const OfflineToastWrapper = ({children}: PropsWithChildren) => {
+export const NetworkToastWrapper = ({children}: PropsWithChildren) => {
   const connected = useConnectivityListener();
 
   useEffect(() => {

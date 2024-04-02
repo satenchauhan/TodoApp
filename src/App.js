@@ -2,16 +2,15 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import {TodoNavigatior} from './navigation';
-import {OfflineToastWrapper} from './components';
+import {NetworkToastWrapper} from './components';
 
 export default function App() {
   return (
-    <OfflineToastWrapper>
+    <NetworkToastWrapper>
       <SafeAreaView style={{flex: 1}}>
-        {/* <PushNotificationNavigator /> */}
         <TodoNavigatior />
       </SafeAreaView>
-    </OfflineToastWrapper>
+    </NetworkToastWrapper>
   );
 }
 
