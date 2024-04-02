@@ -2,7 +2,7 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import {TodoNavigatior} from './navigation';
-import {OfflineToastWrapper} from './components/OfflineToastMsgWrapper';
+import {OfflineToastWrapper} from './components';
 
 export default function App() {
   return (
